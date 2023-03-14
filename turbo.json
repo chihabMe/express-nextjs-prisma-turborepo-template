@@ -12,6 +12,11 @@
     "dev": {
       "cache": false
     },
+    "start": {
+      "cache": false
+    },
+    "api:dev": { "cache": false },
+    "web:dev": { "cache": false },
     "db:generate": {
       "cache": false
     },

@@ -1,10 +1,11 @@
 import { createServer } from "./utils/server";
+import * as env from "./utils/env";
 
 const runServer = async () => {
   const app = createServer();
   try {
-    app.listen(process.env.PORT ?? 3000, () => {
-      console.log(`start the server on port ${process.env.PORT}`);
+    app.listen(env.PORT, () => {
+      console.log(`start the server on port ${env.PORT}`);
     });
   } catch (err) {
     console.error(err);

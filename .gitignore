@@ -8,6 +8,8 @@ node_modules
 # testing
 coverage
 
+#node api
+dist
 # next.js
 .next/
 out/
@@ -28,6 +30,7 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.env*
 
 # turbo
 .turbo
